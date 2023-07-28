@@ -24,7 +24,7 @@ MOSTRAR USUARIOS
 
 			}else if($item != null && $valor = 1){
 
-				$stmt = Conexion::conectar()->prepare("SELECT * FROM $tabla WHERE $item = :$item");
+				$stmt = Conexion::conectar()->prepare("SELECT * FROM $tabla WHERE $item = :$item AND estado = 1 ORDER BY nombre");
 
 				$stmt -> bindParam(":".$item, $valor, PDO::PARAM_STR);
 
