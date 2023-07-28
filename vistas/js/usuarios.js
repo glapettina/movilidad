@@ -102,7 +102,7 @@ $(document).on("click", ".btnEditarUsuario", function(){
 =============================================*/
 
 
-$(document).on("click", ".btnActivar", function(){
+$(document).on("click", ".btnActivarUsuario", function(){
 
 
 	var idUsuario = $(this).attr("idUsuario");
