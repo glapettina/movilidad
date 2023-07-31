@@ -161,6 +161,7 @@
                     <option value="">Seleccionar turno</option>
                     <option value="Mañana">Mañana</option>
                     <option value="Tarde">Tarde</option>
+                    <option value="Vespertino">Vespertino</option>
 
 
                   </select>
